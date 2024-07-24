@@ -1,0 +1,45 @@
+{
+  "name": "select",
+  "version": "0.1.0",
+  "size": {
+    "width": 5,
+    "height": 3
+  },
+  "mapping": [],
+  "workflowMapping": [
+    {
+      "alias": "send_email",
+      "modelId": null,
+      "version": null,
+      "parameters": [
+        {
+          "name": "to",
+          "aliasedName": "to",
+          "type": "person",
+          "list": false,
+          "children": []
+        },
+        {
+          "name": "subject",
+          "aliasedName": "subject",
+          "type": "text",
+          "list": false,
+          "children": []
+        },
+        {
+          "name": "body",
+          "aliasedName": "body",
+          "type": "text",
+          "list": false,
+          "children": []
+        }
+      ]
+    }
+  ],
+  "fileName": "manifest.json",
+  "id": "63ac2bed-ac2b-4ac7-9a63-ceb8838169a6",
+  "proxyId": "c7db84d6-905a-4882-ba74-f10b59c3c897"
+}
+
+
+
